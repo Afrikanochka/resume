@@ -3,23 +3,23 @@ import TechSkills from '../TechSkills';
 import SoftSkills from '../SoftSkills';
 import PropTypes from 'prop-types';
 import s from './Sidebar.module.css';
-import myPhoto from '../../assets/img/photo.jpeg';
-import sv from '../../assets/SV.pdf';
+import myPhoto from '../../images/photo.jpg';
+
 
 function Sidebar({ contacts, techSkills, softSkills }) {
   return (
     <aside className={s.sidebar}>
-      <img src={myPhoto} alt="Yermakova Anastasiia" className={s.photo} />
+      <img src={myPhoto} alt="Natalia Polovynko" className={s.photo} />
       <div className={s.section}>
         <h3 className={s.title}>Contacts</h3>
         <ul>
-          {contacts.map(({ id, label, link, text, icon }) => (
+          {contacts.map(({ id, label, link, text }) => (
             <Contacts
               key={id}
               label={label}
               link={link}
               text={text}
-              icon={icon}
+              
             />
           ))}
         </ul>
@@ -45,17 +45,6 @@ function Sidebar({ contacts, techSkills, softSkills }) {
         <p className={s.text}>English - intermediate</p>
       </div>
 
-      <div className={s.section}>
-        <a className={s.link} href={sv} target="_blank" rel="noreferrer">
-          <img
-            src="https://www.flaticon.com/svg/static/icons/svg/2820/2820284.svg"
-            alt="Download"
-            width="25"
-            className={s.icon}
-          />
-          Download CV
-        </a>
-      </div>
     </aside>
   );
 }

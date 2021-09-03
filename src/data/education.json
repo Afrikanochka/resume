@@ -1,0 +1,50 @@
+[
+  {
+    "id": "id-1",
+    "university": "GoIT",
+    "label": "Certificate Course in Full stack developer",
+    "time": "April 2021 - September 2021",
+    "experience": [
+      {
+        "id": "1",
+        "label": "Teamwork experience."
+      },
+      {
+        "id": "2",
+        "label": "Experience with code versioning tools (such as Git)."
+      },
+      {
+        "id": "3",
+        "label": "The layout of the web pages with clean cross-browser valid code using Figma."
+      },
+      {
+        "id": "4",
+        "label": "Experience in web application development using JavaScript."
+      },
+      {
+        "id": "5",
+        "label": "Developing new user-facing features using React.js."
+      },
+      {
+        "id": "6",
+        "label": "Experience in creating a REST API for working with a collection."
+      },
+      {
+        "id": "7",
+        "label": "Experience in back-end development using Node.js."
+      }
+    ]
+  },
+  {
+    "id": "id-2",
+    "university": "Cherkasy State Technological University",
+    "label": "Master's degree - Finance and credit",
+    "time": "Septermber 2007 - January 2012",
+    "experience": [
+      {
+        "id": "1",
+        "label": "Experiences in the financial and economic sphere."
+      }
+    ]
+  }
+]
